@@ -7,3 +7,5 @@ Design Patterns covered:
     3. Prototype
     4. Factory
     5. Abstract Factory
+- Structural
+    1. Adapter
