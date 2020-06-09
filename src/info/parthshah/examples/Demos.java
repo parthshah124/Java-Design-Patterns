@@ -3,6 +3,8 @@ package info.parthshah.examples;
 import info.parthshah.examples.abstractfactory.CardType;
 import info.parthshah.examples.abstractfactory.CreditCard;
 import info.parthshah.examples.abstractfactory.CreditCardFactory;
+import info.parthshah.examples.adapter.AdapterDemo;
+import info.parthshah.examples.bridge.BridgeDemo;
 import info.parthshah.examples.builder.PizzaOrder;
 import info.parthshah.examples.factory.Website;
 import info.parthshah.examples.factory.WebsiteFactory;
@@ -20,6 +22,13 @@ public class Demos {
         System.out.print("3. Prototype Pattern ");
         System.out.print("4. Factory Pattern ");
         System.out.print("5. Abstract Factory Pattern ");
+        System.out.print("6. Adapter Pattern ");
+        System.out.print("7. Bridge Pattern ");
+        System.out.print("8. Composite Pattern ");
+        System.out.print("9. Decorator Pattern ");
+        System.out.print("10. Facade Pattern ");
+        System.out.print("11. Flyweight Pattern ");
+        System.out.print("12. Proxy Pattern ");
 
         Scanner input = new Scanner( System.in );
         int index = input.nextInt();
@@ -40,9 +49,53 @@ public class Demos {
             case 5:
                 abstractFactoryDemo();
                 break;
+            case 6:
+                adapterDemo();
+                break;
+            case 7:
+                bridgeDemo();
+                break;
+            case 8:
+                compositeDemo();
+                break;
+            case 9:
+                decoratorDemo();
+                break;
+            case 10:
+                facadeDemo();
+                break;
+            case 11:
+                flyweightDemo();
+                break;
+            case 12:
+                proxyDemo();
+                break;
             default:
                 throw new UnsupportedOperationException();
         }
+    }
+
+    private static void proxyDemo() {
+    }
+
+    private static void flyweightDemo() {
+    }
+
+    private static void facadeDemo() {
+    }
+
+    private static void decoratorDemo() {
+    }
+
+    private static void compositeDemo() {
+    }
+
+    private static void bridgeDemo() {
+        BridgeDemo.main(null);
+    }
+
+    private static void adapterDemo() {
+        AdapterDemo.main(null);
     }
 
     private static void singletonDemo(){
