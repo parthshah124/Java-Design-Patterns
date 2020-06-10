@@ -6,6 +6,7 @@ import info.parthshah.examples.abstractfactory.CreditCardFactory;
 import info.parthshah.examples.adapter.AdapterDemo;
 import info.parthshah.examples.bridge.BridgeDemo;
 import info.parthshah.examples.builder.PizzaOrder;
+import info.parthshah.examples.composite.CompositeMenuDemo;
 import info.parthshah.examples.factory.Website;
 import info.parthshah.examples.factory.WebsiteFactory;
 import info.parthshah.examples.factory.WebsiteType;
@@ -88,6 +89,7 @@ public class Demos {
     }
 
     private static void compositeDemo() {
+        CompositeMenuDemo.main(null);
     }
 
     private static void bridgeDemo() {
