@@ -7,10 +7,13 @@ import info.parthshah.examples.adapter.AdapterDemo;
 import info.parthshah.examples.bridge.BridgeDemo;
 import info.parthshah.examples.builder.PizzaOrder;
 import info.parthshah.examples.composite.CompositeMenuDemo;
+import info.parthshah.examples.decorator.DecoratorDemo;
 import info.parthshah.examples.factory.Website;
 import info.parthshah.examples.factory.WebsiteFactory;
 import info.parthshah.examples.factory.WebsiteType;
+import info.parthshah.examples.flyweight.FlyweightDemo;
 import info.parthshah.examples.prototype.Registry;
+import info.parthshah.examples.proxy.ProxyDemo;
 import info.parthshah.examples.singleton.DbSingleton;
 
 import java.util.Scanner;
@@ -22,14 +25,14 @@ public class Demos {
         System.out.print("2. Builder Pattern ");
         System.out.print("3. Prototype Pattern ");
         System.out.print("4. Factory Pattern ");
-        System.out.print("5. Abstract Factory Pattern ");
+        System.out.print("5. Abstract Factory Pattern \n");
         System.out.print("6. Adapter Pattern ");
         System.out.print("7. Bridge Pattern ");
         System.out.print("8. Composite Pattern ");
         System.out.print("9. Decorator Pattern ");
         System.out.print("10. Facade Pattern ");
         System.out.print("11. Flyweight Pattern ");
-        System.out.print("12. Proxy Pattern ");
+        System.out.print("12. Proxy Pattern \n");
 
         Scanner input = new Scanner( System.in );
         int index = input.nextInt();
@@ -77,15 +80,18 @@ public class Demos {
     }
 
     private static void proxyDemo() {
+        ProxyDemo.main(null);
     }
 
     private static void flyweightDemo() {
+        FlyweightDemo.main(null);
     }
 
     private static void facadeDemo() {
     }
 
     private static void decoratorDemo() {
+        DecoratorDemo.main(null);
     }
 
     private static void compositeDemo() {

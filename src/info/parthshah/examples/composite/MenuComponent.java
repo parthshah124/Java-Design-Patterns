@@ -16,6 +16,14 @@ public abstract class MenuComponent {
         return url;
     }
 
+    public MenuComponent add(MenuComponent menuComponent){
+        throw new UnsupportedOperationException("Feature not implemented!");
+    }
+
+    public MenuComponent remove(MenuComponent menuComponent){
+        throw new UnsupportedOperationException("Feature not implemented!");
+    }
+
     public abstract String toString();
 
     String print(MenuComponent menuComponent){
